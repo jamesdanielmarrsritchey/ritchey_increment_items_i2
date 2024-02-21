@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<h2>Return</h2>
+<div id="return_ele"></div>
+<h2>Developer Data</h2>
+<div id="developer_data_ele"></div>
+
+<script src="ritchey_increment_items_i2_v1.js"></script>
+
+<script>
+//Variables
+var item_list_arr = ['a', 'b', 'c'];
+var array_arr = ['c'];
+
+//Call Once
+/*
+var return_var = ritchey_increment_items_i2_v1(array_arr, item_list_arr);
+document.getElementById("return_ele").innerHTML = return_var;
+*/
+
+//Call X Times
+/*
+for (var i4 = 0; i4 < 15; i4++) {
+	return_var = ritchey_increment_items_i2_v1(array_arr, item_list_arr);
+	document.getElementById("return_ele").innerHTML += return_var + '<br>';
+}
+*/
+
+//Call Until Certain Length
+/* */
+var switch1_var = false;
+while (switch1_var == false){
+	var return_var = ritchey_increment_items_i2_v1(array_arr, item_list_arr);
+	if (return_var.length < 5) {
+		document.getElementById("return_ele").innerHTML += return_var + '<br>';
+	} else {
+		var switch1_var = true;
+	}
+}
+
+</script>
+
+</body>
+</html>

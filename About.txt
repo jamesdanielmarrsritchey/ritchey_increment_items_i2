@@ -1,0 +1,14 @@
+Name:Ritchey Increment Items
+Implementation:2
+Version:1
+Long Identifier:Ritchey Increment Items i2 v1
+Short Identifier:RIIi2v1
+Description:Ritchey Increment Items is a javascript function for incrementing combinations of values in an array.
+History:
+ - Project started 2023.
+ - Version 1 completed February 21, 2024.
+Author:James Daniel Marrs Ritchey
+License:Ritchey Permissive License v16
+Notes:
+ - This has currently recieved very little testing to ensure all combinations are being produced.
+ - This project was inspired by Ritchey Increment Items i1 v2, which is a similar project, but written in PHP.
